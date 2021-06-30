@@ -1,5 +1,5 @@
 variable "ext_port" {
-  type    = number
+  type = number
   sensitive = true
 
   validation {
@@ -13,7 +13,7 @@ variable "int_port" {
   default = 1880
 
   validation {
-    condition = var.int_port == 1880
+    condition     = var.int_port == 1880
     error_message = "The internal port must be 1880."
   }
 }

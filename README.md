@@ -1,6 +1,6 @@
 # terraform-docker weather dashboard
 
-Was able to deploy nodered, infludb, and grafana. Loaded a flow into node and passed in credentials for influxdb. API used was from https://openweathermap.org/ to get weather information from cape canaveral and tempe.
+Was able to deploy Nodered, InfluxDB, Grafana. Loaded a flow into node and passed in credentials for influxdb. API used was from https://openweathermap.org/ to get weather information from cape canaveral and tempe.
 
 # DEMO
 
